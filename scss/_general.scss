@@ -1,0 +1,58 @@
+/*body {
+    background-image: linear-gradient(45deg, transparent 20%, black 25%, transparent 25%), 
+                      linear-gradient(-45deg, transparent 20%, black 25%, transparent 25%), 
+                      linear-gradient(-45deg, transparent 75%, black 80%, transparent 0),
+                      radial-gradient(gray 2px, transparent 0);
+    background-size: 30px 30px, 30px 30px;
+  }
+/* Tipografía general */
+
+  body{font-family: 'Noto Sans', sans-serif;
+    .bg-lav{
+        background: $bglav;
+        .cajas{
+            background: $bgcolor;
+            h3{
+                height: 50px;
+                background:$h3color;
+                h1{
+                    background: lightslategray;
+                  }
+                
+              }
+          }
+      }
+}
+  
+
+  
+/*Tabla*/
+
+
+
+
+
+/*Footer*/
+  footer {
+    width: map-get($map: $medidas, $key: ancho );
+    background:  red ;
+    height: 100px
+    margin-top 0px;
+    display: flex;
+    justify-content: center;
+    .maqui {
+        margin-top: 30px;
+        .redes {
+            display: inline-block;
+            .bi-facebook {
+               @include redessociales(#3b5998);
+                .bi-whatsapp {
+                @include redessociales(#25D366);
+                .bi-instagram {
+                @include redessociales(#8a3ab9);
+                                  }
+                              }
+                          }
+                      }
+                    }
+                }     

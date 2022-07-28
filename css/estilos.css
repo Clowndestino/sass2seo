@@ -1,0 +1,182 @@
+@charset "UTF-8";
+.td, .td .th {
+  color: #f30b0b;
+  background: #fff;
+}
+.td .th {
+  border: 1px solid black;
+}
+
+/*body {
+    background-image: linear-gradient(45deg, transparent 20%, black 25%, transparent 25%), 
+                      linear-gradient(-45deg, transparent 20%, black 25%, transparent 25%), 
+                      linear-gradient(-45deg, transparent 75%, black 80%, transparent 0),
+                      radial-gradient(gray 2px, transparent 0);
+    background-size: 30px 30px, 30px 30px;
+  }
+/* Tipografía general */
+body {
+  font-family: "Noto Sans", sans-serif;
+}
+body .bg-lav {
+  background: red;
+}
+body .bg-lav .cajas {
+  background: lightslategray;
+}
+body .bg-lav .cajas h3 {
+  height: 50px;
+  background: whitesmoke;
+}
+body .bg-lav .cajas h3 h1 {
+  background: lightslategray;
+}
+
+/*Tabla*/
+/*Footer*/
+footer {
+  width: 100%;
+  background: red;
+  height: 100px margin-top 0px;
+  display: flex;
+  justify-content: center;
+}
+footer .maqui {
+  margin-top: 30px;
+}
+footer .maqui .redes {
+  display: inline-block;
+}
+footer .maqui .redes .bi-facebook {
+  text-align: center;
+  margin-left: 5px;
+  margin-right: 5px;
+  color: black;
+}
+footer .maqui .redes .bi-facebook:hover {
+  color: #3b5998;
+}
+footer .maqui .redes .bi-facebook .bi-whatsapp {
+  text-align: center;
+  margin-left: 5px;
+  margin-right: 5px;
+  color: black;
+}
+footer .maqui .redes .bi-facebook .bi-whatsapp:hover {
+  color: #25D366;
+}
+footer .maqui .redes .bi-facebook .bi-whatsapp .bi-instagram {
+  text-align: center;
+  margin-left: 5px;
+  margin-right: 5px;
+  color: black;
+}
+footer .maqui .redes .bi-facebook .bi-whatsapp .bi-instagram:hover {
+  color: #8a3ab9;
+}
+
+.btn-primary {
+  background-color: #f30b0b;
+  border-color: #f30b0b;
+  transition: all 0.2s ease-in-out;
+}
+.btn-primary .btn-primary {
+  --bs-btn-color: #fff;
+  --bs-btn-bg: #f30b0b;
+  --bs-btn-border-color: #f30b0b;
+  --bs-btn-hover-color: #fff;
+  --bs-btn-hover-bg: #f30b0b;
+  --bs-btn-hover-border-color: #f30b0b;
+  --bs-btn-focus-shadow-rgb: 49,132,253;
+  --bs-btn-active-color: #fff;
+  --bs-btn-active-bg: #f30b0b;
+  --bs-btn-active-border-color:#f30b0b;
+  --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+  --bs-btn-disabled-color: #fff;
+  --bs-btn-disabled-bg: #f30b0b;
+  --bs-btn-disabled-border-color: #f30b0b;
+}
+.btn-primary .btn-primary .btn {
+  --bs-btn-padding-x: 0.75rem;
+  --bs-btn-padding-y: 0.375rem;
+  --bs-btn-font-family: ;
+  --bs-btn-font-size: 1rem;
+  --bs-btn-font-weight: 400;
+  --bs-btn-line-height: 1.5;
+  --bs-btn-color: #212529;
+  --bs-btn-bg: transparent;
+  --bs-btn-border-width: 1px;
+  --bs-btn-border-color: transparent;
+  --bs-btn-border-radius: 0.375rem;
+  --bs-btn-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.15),0 1px 1px rgba(0, 0, 0, 0.075);
+  --bs-btn-disabled-opacity: 0.65;
+  --bs-btn-focus-box-shadow: 0 0 0 0.25rem rgba(var(--bs-btn-focus-shadow-rgb), .5);
+  display: inline-block;
+  padding: var(--bs-btn-padding-y) var(--bs-btn-padding-x);
+  font-family: var(--bs-btn-font-family);
+  font-size: var(--bs-btn-font-size);
+  font-weight: var(--bs-btn-font-weight);
+  line-height: var(--bs-btn-line-height);
+  color: var(--bs-btn-color);
+  text-align: center;
+  text-decoration: none;
+  vertical-align: middle;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+      user-select: none;
+  border: var(--bs-btn-border-width) solid var(--bs-btn-border-color);
+  border-radius: var(--bs-btn-border-radius);
+  background-color: var(--bs-btn-bg);
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+/*acordeon*/
+.accordion {
+  --bs-accordion-color: #000;
+  --bs-accordion-bg: #fff;
+  --bs-accordion-transition: color 0.15s ease-in-out,background-color 0.15s ease-in-out,border-color 0.15s ease-in-out,box-shadow 0.15s ease-in-out,border-radius 0.15s ease;
+  --bs-accordion-border-color: var(--bs-border-color);
+  --bs-accordion-border-width: 1px;
+  --bs-accordion-border-radius: 0.375rem;
+  --bs-accordion-inner-border-radius: calc(0.375rem - 1px);
+  --bs-accordion-btn-padding-x: 1.25rem;
+  --bs-accordion-btn-padding-y: 1rem;
+  --bs-accordion-btn-color: var(--bs-body-color);
+  --bs-accordion-btn-bg: var(--bs-accordion-bg);
+  --bs-accordion-btn-icon: url(data:image/svg+xml,%3csvg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" fill="var%28--bs-body-color%29"%3e%3cpath fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/%3e%3c/svg%3e);
+  --bs-accordion-btn-icon-width: 1.25rem;
+  --bs-accordion-btn-icon-transform: rotate(-180deg);
+  --bs-accordion-btn-icon-transition: transform 0.2s ease-in-out;
+  --bs-accordion-btn-active-icon: url(data:image/svg+xml,%3csvg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" fill="%230c63e4"%3e%3cpath fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/%3e%3c/svg%3e);
+  --bs-accordion-btn-focus-border-color: #f30b0b;
+  --bs-accordion-btn-focus-box-shadow: 0 0 0 0.25rem rgba(231, 114, 222, 0.25);
+  --bs-accordion-body-padding-x: 1.25rem;
+  --bs-accordion-body-padding-y: 1rem;
+  --bs-accordion-active-color: #f30b0b;
+  --bs-accordion-active-bg: #fff;
+}
+
+/*botones*/
+.btn-outline-success {
+  background-color: black;
+  border-color: black;
+  transition: all 0.2s ease-in-out;
+  color: white;
+}
+.btn-outline-success .btn-outline-success {
+  --bs-btn-color: #dc3545;
+  --bs-btn-border-color: #dc3545;
+  --bs-btn-hover-color: #fff;
+  --bs-btn-hover-bg: #dc3545;
+  --bs-btn-hover-border-color: #dc3545;
+  --bs-btn-focus-shadow-rgb: 25,135,84;
+  --bs-btn-active-color: #fff;
+  --bs-btn-active-bg: #dc3545;
+  --bs-btn-active-border-color: #dc3545;
+  --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+  --bs-btn-disabled-color: #dc3545;
+  --bs-btn-disabled-bg: transparent;
+  --bs-gradient: none;
+}/*# sourceMappingURL=estilos.css.map */

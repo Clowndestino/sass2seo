@@ -1,0 +1,28 @@
+$bgcolor:lightslategray;
+$bglav:red;
+$h3color: whitesmoke;
+
+@mixin redessociales ($hover) {
+    text-align: center;
+    margin-left: 5px;
+    margin-right: 5px;
+    color: black;
+    &:hover{
+        color: $hover;
+    }  
+}
+
+$medidas: (
+    alto: 100px,
+    ancho:  100%,
+    margintop: 30px
+   );
+
+   .td{
+    color: #f30b0b;
+    background: #fff;
+    .th{
+      @extend .td;
+      border: 1px solid black;  
+    }
+}
